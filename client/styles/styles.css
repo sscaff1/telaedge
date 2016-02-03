@@ -1,0 +1,80 @@
+/*Body Padding*/
+* {
+  font-family: 'Josefin Slab', Georgia, "Times New Roman", serif;
+  color: grey;
+}
+
+/*Transparent Navbar*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar ul li a {
+  color:#0a0a0a;
+  font-size: 24px;
+}
+
+.slogan {
+  position: relative;
+  top:150px;
+  color:#fafafa;
+}
+
+footer {
+  text-align: center;
+}
+.container-fluid, .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul.social-buttons li a {display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;}
+ul.social-buttons li a .fa {color:#fff;}
+
+.header-container {
+  background-image: url('/img/header-background.jpg');
+  padding-bottom: 250px;
+  background-position: 0% 40%;
+  background-attachment: fixed;
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+  padding: 25px 0;
+}
+
+p.intro-text {
+  font-size: 20px;
+}
+
+div.row.pic-row {
+  background-color: #E7ECF0;
+  padding:15px;
+}
+
+.services-container {
+  background-color: #BAD1DA;
+  padding:25px;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.service-text {
+  font-size:18px;
+}
+
+.mywork-container {
+  background-color: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mywork-container h3 {
+  color: #FAFAFA;
+}

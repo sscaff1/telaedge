@@ -1,11 +1,17 @@
 import React from 'react';
 
 const Sample = ({name,source,website,sourceCode}) => (
-  <div className="col-sm-4 text-center">
-    <img src={source} height="200" className="center-block" />
+  <div className="col-sm-4 text-center sample-box">
+    <div className="sample-image">
+      <span className="helper"></span>
+      <img src={source} className="center-block" />
+    </div>
     <h3>
       {name}<br/>
-    {website ? (<small>(<a href={website} target="_blank">Website</a> | <a href={sourceCode} target="_blank">Source Code</a>)</small>) : ''}
+      <small>
+        {website ? (<span><a href={website} target="_blank">Website</a></span>) : ''}
+        {sourceCode ? (<span> | <a href={sourceCode} target="_blank">Source Code</a></span>) : ''}
+      </small>
     </h3>
   </div>
 );

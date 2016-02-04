@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Pic = ({source}) => (
-  <div className="col-sm-4 text-center">
-    <img className="center-block" src={source} height="300" />
+  <div className="col-sm-4 text-center pic-container">
+    <img className="center-block" src={source} />
   </div>
 );
 

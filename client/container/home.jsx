@@ -34,6 +34,8 @@ export const Home = () => (
       ]} />
     </div>
     <TagLine classNames="container-fluid black" text="Contact Me" />
-    <ContactForm />
+    <div className="email-link">
+      <a href="mailto:sscaff1@gmail.com">sscaff1@gmail.com</a>
+    </div>
   </div>
 );
